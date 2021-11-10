@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="minesweeper.css">
+    <title>Minesweeper</title>
+</head>
+
+<body>
+    <div class="gameWrapper">
+        <div class="gameTop">
+            <button onclick="SwapGameMenu()">Menu</button>
+    
+        </div>
+        <div class="game">
+            <div id="StartMenu">
+                <button onclick="StartGame(10)">10</button>
+                <button onclick="StartGame(15)">15</button>
+                <button onclick="StartGame(20)">20</button>
+                <button onclick="StartGame(25)">25</button>
+            </div>
+            <div id="Field">
+            </div>
+        </div>
+    </div>
+    <script src="minesweeper.js"></script>
+</body>
+
+</html>
