@@ -1,5 +1,5 @@
 button{
-    padding: 2ch;
+    padding: 1ch;
     
 }
 .gameWrapper{
@@ -20,8 +20,11 @@ button{
     flex-flow: row;
 }
 [class^="fieldtile"]{
+    padding: 0ch;
+    height: 3ch;
+    width: 3ch;
+    font-family: monospace;
     align-content: center;
-    font-size: 2ch;
     font-weight: bold;
     background-color: gainsboro;
 }
